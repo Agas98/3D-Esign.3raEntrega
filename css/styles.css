@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
 }
-
+/* Fuente Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
 :root {
     --principal: #0078A3;
     --principal-hover: #47CEFF;
@@ -11,6 +12,7 @@
     --texto: #333;
     --fondo: #CBB6CE;
     --borde: #907A89;
+    --fuenteTexto:'Oswald', sans-serif;
 }
 
 body {
@@ -95,7 +97,6 @@ body {
         width: 100px;
     }
 }
-
 /* FIN NAVBAR/HEADER */
 
 /* INICIO FOOTER */
@@ -107,7 +108,7 @@ body {
 .footer__encabezado {
     color: #000;
     font-weight: 500;
-    font-size: 1.1rem;
+    font-size: 0.8rem;
     text-align: center;
     line-height: 50px;
 }
@@ -124,26 +125,23 @@ body {
 
 .footer__redes span {
     color: var(--texto);
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-weight: 700;
-    margin-left: 40px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
-    background: linear-gradient(60deg, rgba(255, 212, 194, 0.5) 0%, rgba(245, 169, 137, 0.5) 28%, rgba(71, 206, 255, 0.5) 66%, rgba(0, 105, 143, 0.5) 100%);
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: var(--fondo);
 }
 
 @media only screen and (max-width: 850px) {
     .footer__redes span {
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
 
     .footer__encabezado {
-        font-size: 0.9rem;
+        font-size: 0.5rem;
     }
 }
 
@@ -153,11 +151,11 @@ footer {
     }
 
     .footer__redes span {
-        font-size: 1rem;
+        font-size: 0.7rem;
     }
 
     .footer__encabezado {
-        font-size: 0.7rem;
+        font-size: 0.4rem;
     }
 }
 /* FIN FOOTER */
@@ -219,6 +217,15 @@ footer {
 .texto h2 {
     color: var(--principal);
     font-weight: 700;
+}
+
+.texto{
+    background-color: var(--borde);
+    margin-top: 20px;
+    border-radius: 35px 5px;
+    border: 2px solid var(--texto);
+    padding: 10px;
+    font-family: 'Shizuru', cursive;
 }
 
 @media only screen and (max-width: 768px) and (min-width: 425px) {
@@ -325,7 +332,7 @@ footer {
 /* INICIO CONTACTO */
 #section-contacto{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 130px;
@@ -335,8 +342,8 @@ footer {
     padding: 20px;
     border:2px solid #000;
     border-radius: 50px;
-    width: 800px;
-    height: 600px;
+    width: 700px;
+    height: 500px;
     background-color: var(--fondo)
 }
 
@@ -349,12 +356,16 @@ footer {
     font-size: 1.5rem;
     font-weight: 700;
     display: flex;
-    margin-top: 10px;
+    margin-top: 5px;
     justify-content: center;
 }
 
 .text_area{
     resize: none;
+}
+
+.contactoWhatsapp{
+    margin-top: 20px;
 }
 
 .contactoWhatsapp span{
@@ -368,6 +379,26 @@ footer {
     }
 .icon_wpp{
     width: 40px;
+}
+.formulario{
+    width: 400px;
+    height: 500px;
+}
+}
+
+@media only screen and (max-width: 425px) {
+    #section-contacto {
+        font-size: 0.8rem;
+    }
+.icon_wpp{
+    width: 30px;
+}
+.formulario{
+    width: 300px;
+    height: 500px;
+}
+.boton_enviar{
+    margin-top: 15px;
 }
 }
 /* FIN CONTACTO */
