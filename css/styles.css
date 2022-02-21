@@ -1,4 +1,4 @@
-* {
+* { /* RESET CSS */
     margin: 0;
     padding: 0;
 }
@@ -6,7 +6,7 @@
 /* Fuente Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Shizuru&display=swap');
 
-:root {
+:root { /* DECLARACION DE VARIABLES */
     --principal: #0078A3;
     --principal-hover: #47CEFF;
     --secundario: #00698f;
@@ -14,7 +14,6 @@
     --texto: #333;
     --fondo: #CBB6CE;
     --borde: #907A89;
-    --fuenteTexto: 'Oswald', sans-serif;
 }
 
 body {
@@ -99,7 +98,6 @@ body {
         width: 100px;
     }
 }
-
 /* FIN NAVBAR/HEADER */
 
 /* INICIO FOOTER */
@@ -162,7 +160,6 @@ footer {
         font-size: 0.4rem;
     }
 }
-
 /* FIN FOOTER */
 
 /*INICIO INDEX */
@@ -260,7 +257,6 @@ footer {
         margin-bottom: 130px;
     }
 }
-
 /* FIN INDEX */
 
 /* INICIO QUIENES_SOMOS */
@@ -340,7 +336,6 @@ footer {
         margin-bottom: 130px;
     }
 }
-
 /* FIN QUIENES_SOMOS */
 
 /* INICIO CONTACTO */
@@ -421,7 +416,6 @@ footer {
         margin-top: 15px;
     }
 }
-
 /* FIN CONTACTO */
 
 /* INICIO PRODUCTOS */
@@ -454,7 +448,6 @@ footer {
     font-size: 1.8rem;
     font-weight: 700;
 }
-
 /* FIN PRODUCTOS */
 
 /* INICIO GALERIA */
@@ -466,5 +459,4 @@ footer {
 #section-galeria {
     height: 675px;
 }
-
 /* FIN GALERIA */
