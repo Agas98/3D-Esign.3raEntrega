@@ -23,14 +23,7 @@ body {
 }
 
 /* INICIO DECLARACION DE EXTENDS */
-.contenido, .contenidovideos, .videos {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.card-2, .contenedor_productos, .links, .ubicacion, #section-quienes_somos, #section-index {
+.card-2, .contenedor_productos, #section-contacto, .links, .ubicacion, #section-quienes_somos, #section-index {
   display: flex;
   flex-direction: column;
 }
@@ -272,6 +265,13 @@ footer {
   margin-bottom: 80px;
 }
 
+.videos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .video {
   margin: 20px;
 }
@@ -280,6 +280,12 @@ footer {
   height: 400px;
 }
 
+.contenidovideos {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
 .contenidovideos a {
   text-decoration: none;
   color: #0078A3;
@@ -323,6 +329,13 @@ footer {
   height: auto;
 }
 
+.contenido {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .mapa iframe {
   margin-top: 10px;
   width: 500px;
@@ -355,8 +368,7 @@ footer {
 
 /* IMPORT CONTACTO SCSS */
 #section-contacto {
-  display: flex;
-  flex-flow: column wrap;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin-bottom: 130px;

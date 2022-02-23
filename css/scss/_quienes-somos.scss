@@ -5,7 +5,7 @@
 }
 
 .contenido {
-	@extend %flex-align;
+	@include flex-align;
 }
 
 .mapa {

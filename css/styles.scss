@@ -31,17 +31,11 @@ body {
 }
 
 /* INICIO DECLARACION DE EXTENDS */
-%flex-align{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-}
-
-%flex-column{
+%flex-column {
 	display: flex;
 	flex-direction: column;
 }
+
 /* FIN DECLARACION DE EXTENDS */
 
 /* INICIO DECLARACION MIXINS */
@@ -56,6 +50,14 @@ body {
 	transition: all 0.6s;
 	text-align: center;
 }
+
+@mixin flex-align {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
 /* FIN DECLARACION MIXINS */
 
 /* INICIO GALERIA */
@@ -69,6 +71,7 @@ body {
 #section-galeria {
 	height: 675px;
 }
+
 /* FIN GALERIA */
 
 /* INICIO MEDIA QUERIES */
@@ -176,6 +179,7 @@ body {
 		margin-bottom: 65px;
 	}
 }
+
 /* FIN MEDIA QUERIES */
 
 /* IMPORT NAVBAR/HEADER SCSS*/
