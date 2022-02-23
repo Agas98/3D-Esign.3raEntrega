@@ -74,6 +74,19 @@ body {
 
 /* FIN GALERIA */
 
+/* IMPORT NAVBAR/HEADER SCSS*/
+@import "scss/_header";
+/* IMPORT FOOTER SCSS*/
+@import "scss/footer";
+/* IMPORT INDEX SCSS */
+@import "scss/index";
+/* IMPORT QUIENES SOMOS SCSS */
+@import "scss/quienes-somos";
+/* IMPORT CONTACTO SCSS */
+@import "scss/contacto";
+/* IMPORT PRODUCTOS SCSS */
+@import "scss/productos";
+
 /* INICIO MEDIA QUERIES */
 @media only screen and (max-width: 768px) and (min-width: 425px) {
 	#section-index {
@@ -107,7 +120,7 @@ body {
 	.video {
 		iframe {
 			width: ($iframe-width) - 150;
-			height: ($iframe-height) - 200;
+			height: ($iframe-height) - 100;
 		}
 	}
 }
@@ -179,18 +192,5 @@ body {
 		margin-bottom: 65px;
 	}
 }
-
 /* FIN MEDIA QUERIES */
 
-/* IMPORT NAVBAR/HEADER SCSS*/
-@import "scss/_header";
-/* IMPORT FOOTER SCSS*/
-@import "scss/footer";
-/* IMPORT INDEX SCSS */
-@import "scss/index";
-/* IMPORT QUIENES SOMOS SCSS */
-@import "scss/quienes-somos";
-/* IMPORT CONTACTO SCSS */
-@import "scss/contacto";
-/* IMPORT PRODUCTOS SCSS */
-@import "scss/productos";

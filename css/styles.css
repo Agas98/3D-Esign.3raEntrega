@@ -42,100 +42,6 @@ body {
 }
 
 /* FIN GALERIA */
-/* INICIO MEDIA QUERIES */
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-  #section-index {
-    font-size: 1.2rem;
-  }
-
-  .video iframe {
-    width: 300px;
-    height: 250px;
-  }
-
-  #section-quienes_somos {
-    font-size: 1.2rem;
-  }
-
-  .mapa iframe {
-    width: 400px;
-    height: 350px;
-  }
-}
-@media only screen and (max-width: 424px) {
-  #section-index {
-    font-size: 1rem;
-  }
-
-  .video iframe {
-    width: 250px;
-    height: 100px;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #section-index {
-    margin-bottom: 130px;
-    margin-bottom: 130px;
-  }
-
-  #section-contacto {
-    font-size: 1.2rem;
-  }
-
-  .icon_wpp {
-    width: 40px;
-  }
-
-  .formulario {
-    width: 400px;
-    height: 500px;
-  }
-
-  .producto_titulo {
-    font-size: 1.8rem;
-  }
-
-  #section-producto {
-    margin-bottom: 60px;
-  }
-}
-@media only screen and (max-width: 430px) {
-  #section-quienes_somos {
-    font-size: 1rem;
-  }
-
-  .mapa iframe {
-    width: 300px;
-    height: 250px;
-  }
-}
-@media only screen and (max-width: 425px) {
-  #section-contacto {
-    font-size: 0.8rem;
-  }
-
-  .icon_wpp {
-    width: 30px;
-  }
-
-  .formulario {
-    width: 300px;
-    height: 500px;
-  }
-
-  .boton_enviar {
-    margin-top: 15px;
-  }
-
-  .producto_titulo {
-    font-size: 1.3rem;
-  }
-
-  #section-producto {
-    margin-bottom: 65px;
-  }
-}
-/* FIN MEDIA QUERIES */
 /* IMPORT NAVBAR/HEADER SCSS*/
 .bg-dark {
   border: 3px solid #907A89;
@@ -438,10 +344,105 @@ footer {
 .producto_titulo {
   color: #004B66;
   font-size: 2rem;
-  font-weight: 500;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
 .precio_strong {
   font-weight: bold;
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/* INICIO MEDIA QUERIES */
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+  #section-index {
+    font-size: 1.2rem;
+  }
+
+  .video iframe {
+    width: 300px;
+    height: 250px;
+  }
+
+  #section-quienes_somos {
+    font-size: 1.2rem;
+  }
+
+  .mapa iframe {
+    width: 400px;
+    height: 350px;
+  }
+}
+@media only screen and (max-width: 424px) {
+  #section-index {
+    font-size: 1rem;
+  }
+
+  .video iframe {
+    width: 250px;
+    height: 200px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #section-index {
+    margin-bottom: 130px;
+    margin-bottom: 130px;
+  }
+
+  #section-contacto {
+    font-size: 1.2rem;
+  }
+
+  .icon_wpp {
+    width: 40px;
+  }
+
+  .formulario {
+    width: 400px;
+    height: 500px;
+  }
+
+  .producto_titulo {
+    font-size: 1.8rem;
+  }
+
+  #section-producto {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  #section-quienes_somos {
+    font-size: 1rem;
+  }
+
+  .mapa iframe {
+    width: 300px;
+    height: 250px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  #section-contacto {
+    font-size: 0.8rem;
+  }
+
+  .icon_wpp {
+    width: 30px;
+  }
+
+  .formulario {
+    width: 300px;
+    height: 500px;
+  }
+
+  .boton_enviar {
+    margin-top: 15px;
+  }
+
+  .producto_titulo {
+    font-size: 1.3rem;
+  }
+
+  #section-producto {
+    margin-bottom: 65px;
+  }
+}
+/* FIN MEDIA QUERIES *//*# sourceMappingURL=styles.css.map */
