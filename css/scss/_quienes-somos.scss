@@ -1,45 +1,38 @@
 #section-quienes_somos {
-	display: flex;
-	flex-direction: column;
+	@extend %flex-column;
 	margin-bottom: 120px;
 	height: auto;
 }
+
 .contenido {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
+	@extend %flex-align;
 }
+
 .mapa {
 	iframe {
 		margin-top: 10px;
-		width: 500px;
-		height: 380px;
+		width: ($iframe-width) + 100;
+		height: ($iframe-height) + 80;
 	}
 }
+
 .ubicacion {
-	display: flex;
-	flex-direction: column;
+	@extend %flex-column;
 }
+
 .ubicacion__name {
 	color: $principal;
 	font-weight: 600;
 }
+
 .links {
-	display: flex;
-	flex-direction: column;
+	@extend %flex-column;
 	justify-content: space-around;
 	height: 200px;
+
 	a {
-		text-decoration: none;
-		color: $principal;
-		font-weight: 600;
-		background-color: $fondo;
-		border: 3px solid $borde;
-		border-radius: 15px;
-		padding: 8px;
-		transition: all 0.6s;
-		text-align: center;
+		@include links_formato;
+
 		&:hover {
 			color: $principal-hover;
 		}

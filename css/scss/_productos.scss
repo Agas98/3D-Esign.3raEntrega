@@ -9,15 +9,14 @@
 	width: 300px;
 }
 .contenedor_productos {
-	display: flex;
-	flex-flow: column wrap;
+	@extend %flex-column;
+	flex-wrap: wrap;
 }
 .card {
 	height: 500px;
 }
 .card-2 {
-	display: flex;
-	flex-direction: column;
+	@extend %flex-column;
 	justify-content: center;
 }
 .producto_titulo {

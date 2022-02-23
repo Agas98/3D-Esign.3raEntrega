@@ -2,18 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap');
 
 /* DECLARACION DE VARIABLES */
-	$principal: #0078A3;
-	$principal-hover: #47CEFF;
-	$secundario: #00698f;
-	$titulo: #004B66;
-	$texto: #333;
-	$fondo: #CBB6CE;
-	$borde: #907A89;
+$principal: #0078A3;
+$principal-hover: #47CEFF;
+$secundario: #00698f;
+$titulo: #004B66;
+$texto: #333;
+$fondo: #CBB6CE;
+$borde: #907A89;
+$iframe-height: 300px;
+$iframe-width: 400px;
 
 /* RESET CSS Y SELECCION */
 * {
 	margin: 0;
 	padding: 0;
+
 	&::selection {
 		background-color: $fondo;
 		color: $principal;
@@ -27,6 +30,154 @@ body {
 	font-size: 24px;
 }
 
+/* INICIO DECLARACION DE EXTENDS */
+%flex-align{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+%flex-column{
+	display: flex;
+	flex-direction: column;
+}
+/* FIN DECLARACION DE EXTENDS */
+
+/* INICIO DECLARACION MIXINS */
+@mixin links_formato {
+	text-decoration: none;
+	color: $principal;
+	font-weight: 600;
+	background-color: $fondo;
+	border: 3px solid $borde;
+	border-radius: 15px;
+	padding: 8px;
+	transition: all 0.6s;
+	text-align: center;
+}
+/* FIN DECLARACION MIXINS */
+
+/* INICIO GALERIA */
+.carousel-item {
+	img {
+		width: 300px;
+		height: 550px;
+	}
+}
+
+#section-galeria {
+	height: 675px;
+}
+/* FIN GALERIA */
+
+/* INICIO MEDIA QUERIES */
+@media only screen and (max-width: 768px) and (min-width: 425px) {
+	#section-index {
+		font-size: 1.2rem;
+	}
+
+	.video {
+		iframe {
+			width: ($iframe-width) - 100;
+			height: ($iframe-height) - 50;
+		}
+	}
+
+	#section-quienes_somos {
+		font-size: 1.2rem;
+	}
+
+	.mapa {
+		iframe {
+			width: $iframe-width;
+			height: ($iframe-height) + 50;
+		}
+	}
+}
+
+@media only screen and (max-width: 424px) {
+	#section-index {
+		font-size: 1rem;
+	}
+
+	.video {
+		iframe {
+			width: ($iframe-width) - 150;
+			height: ($iframe-height) - 200;
+		}
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#section-index {
+		margin-bottom: 130px;
+		margin-bottom: 130px;
+	}
+
+	#section-contacto {
+		font-size: 1.2rem;
+	}
+
+	.icon_wpp {
+		width: 40px;
+	}
+
+	.formulario {
+		width: 400px;
+		height: 500px;
+	}
+
+	.producto_titulo {
+		font-size: 1.8rem;
+	}
+
+	#section-producto {
+		margin-bottom: 60px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	#section-quienes_somos {
+		font-size: 1rem;
+	}
+
+	.mapa {
+		iframe {
+			width: ($iframe-width) - 100;
+			height: ($iframe-height) - 50;
+		}
+	}
+}
+
+@media only screen and (max-width: 425px) {
+	#section-contacto {
+		font-size: 0.8rem;
+	}
+
+	.icon_wpp {
+		width: 30px;
+	}
+
+	.formulario {
+		width: 300px;
+		height: 500px;
+	}
+
+	.boton_enviar {
+		margin-top: 15px;
+	}
+
+	.producto_titulo {
+		font-size: 1.3rem;
+	}
+
+	#section-producto {
+		margin-bottom: 65px;
+	}
+}
+/* FIN MEDIA QUERIES */
+
 /* IMPORT NAVBAR/HEADER SCSS*/
 @import "scss/_header";
 /* IMPORT FOOTER SCSS*/
@@ -39,103 +190,3 @@ body {
 @import "scss/contacto";
 /* IMPORT PRODUCTOS SCSS */
 @import "scss/productos";
-
-/* INICIO GALERIA */
-.carousel-item {
-	img {
-		width: 300px;
-		height: 550px;
-	}
-}
-#section-galeria {
-	height: 675px;
-}
-/* FIN GALERIA */
-
-/* INICIO MEDIA QUERIES */
-@media only screen and (max-width: 768px) and (min-width: 425px) {
-	#section-index {
-		font-size: 1.2rem;
-	}
-	.video {
-		iframe {
-			width: 300px;
-			height: 250px;
-		}
-	}
-	#section-quienes_somos {
-		font-size: 1.2rem;
-	}
-	.mapa {
-		iframe {
-			width: 400px;
-			height: 350px;
-		}
-	}
-}
-@media only screen and (max-width: 424px) {
-	#section-index {
-		font-size: 1rem;
-	}
-	.video {
-		iframe {
-			width: 250px;
-			height: 200px;
-		}
-	}
-}
-@media only screen and (max-width: 768px) {
-	#section-index {
-		margin-bottom: 130px;
-		margin-bottom: 130px;
-	}
-	#section-contacto {
-		font-size: 1.2rem;
-	}
-	.icon_wpp {
-		width: 40px;
-	}
-	.formulario {
-		width: 400px;
-		height: 500px;
-	}
-	.producto_titulo {
-		font-size: 1.8rem;
-	}
-	#section-producto {
-		margin-bottom: 60px;
-	}
-}
-@media only screen and (max-width: 430px) {
-	#section-quienes_somos {
-		font-size: 1rem;
-	}
-	.mapa {
-		iframe {
-			width: 300px;
-			height: 250px;
-		}
-	}
-}
-@media only screen and (max-width: 425px) {
-	#section-contacto {
-		font-size: 0.8rem;
-	}
-	.icon_wpp {
-		width: 30px;
-	}
-	.formulario {
-		width: 300px;
-		height: 500px;
-	}
-	.boton_enviar {
-		margin-top: 15px;
-	}
-	.producto_titulo {
-		font-size: 1.3rem;
-	}
-	#section-producto {
-		margin-bottom: 65px;
-	}
-}
-/* FIN MEDIA QUERIES */
