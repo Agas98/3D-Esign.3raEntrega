@@ -6,6 +6,10 @@
   margin: 0;
   padding: 0;
 }
+*::-moz-selection {
+  background-color: #CBB6CE;
+  color: #0078A3;
+}
 *::selection {
   background-color: #CBB6CE;
   color: #0078A3;
@@ -18,7 +22,7 @@ body {
   font-size: 24px;
 }
 
-/* INICIO NAVBAR/HEADER */
+/* IMPORT NAVBAR/HEADER SCSS*/
 .bg-dark {
   border: 3px solid #907A89;
   border-radius: 80px;
@@ -84,8 +88,7 @@ body {
     width: 100px;
   }
 }
-/* FIN NAVBAR/HEADER */
-/* INICIO FOOTER */
+/* IMPORT FOOTER SCSS*/
 .footer__redes {
   height: auto;
   text-align: center;
@@ -142,8 +145,7 @@ footer {
     font-size: 0.4rem;
   }
 }
-/* FIN FOOTER */
-/* INICIO INDEX */
+/* IMPORT INDEX SCSS */
 #section-index {
   display: flex;
   flex-direction: column;
@@ -208,8 +210,7 @@ footer {
   font-weight: 700;
 }
 
-/* FIN INDEX */
-/* INICIO QUIENES SOMOS */
+/* IMPORT QUIENES SOMOS SCSS */
 #section-quienes_somos {
   display: flex;
   flex-direction: column;
@@ -261,8 +262,7 @@ footer {
   color: #47CEFF;
 }
 
-/* FIN QUIENES SOMOS */
-/* INICIO CONTACTO */
+/* IMPORT CONTACTO SCSS */
 #section-contacto {
   display: flex;
   flex-flow: column wrap;
@@ -306,8 +306,7 @@ footer {
   font-weight: 700;
 }
 
-/* FIN CONTACTO */
-/* INICIO PRODUCTOS */
+/* IMPORT PRODUCTOS SCSS */
 #section-producto {
   margin-bottom: 40px;
 }
@@ -347,7 +346,6 @@ footer {
   font-weight: bold;
 }
 
-/* FIN PRODUCTOS */
 /* INICIO GALERIA */
 .carousel-item img {
   width: 300px;
@@ -452,6 +450,4 @@ footer {
     margin-bottom: 65px;
   }
 }
-/* FIN MEDIA QUERIES */
-
-/*# sourceMappingURL=styles.css.map */
+/* FIN MEDIA QUERIES *//*# sourceMappingURL=styles.css.map */

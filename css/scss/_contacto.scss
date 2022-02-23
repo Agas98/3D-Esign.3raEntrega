@@ -1,0 +1,37 @@
+#section-contacto {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-bottom: 130px;
+}
+.formulario {
+	margin-top: 18px;
+	padding: 20px;
+	border: 2px solid #000;
+	border-radius: 50px;
+	width: 700px;
+	height: 500px;
+	background-color: $fondo;
+}
+.form-check-label {
+	color: $principal;
+	font-weight: 600;
+}
+.boton_enviar {
+	font-size: 1.5rem;
+	font-weight: 700;
+	display: flex;
+	margin-top: 5px;
+	justify-content: center;
+}
+.text_area {
+	resize: none;
+}
+.contactoWhatsapp {
+	margin-top: 20px;
+	span {
+		color: #004B66;
+		font-weight: 700;
+	}
+}

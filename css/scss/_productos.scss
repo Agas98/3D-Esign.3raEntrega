@@ -1,0 +1,31 @@
+#section-producto {
+	margin-bottom: 40px;
+}
+.categoria {
+	text-decoration: none;
+}
+.img_producto {
+	height: 300px;
+	width: 300px;
+}
+.contenedor_productos {
+	display: flex;
+	flex-flow: column wrap;
+}
+.card {
+	height: 500px;
+}
+.card-2 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.producto_titulo {
+	color: $titulo;
+	font-size: 2rem;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+.precio_strong {
+	font-weight: bold;
+}
