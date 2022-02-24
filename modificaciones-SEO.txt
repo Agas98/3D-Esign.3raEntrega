@@ -1,14 +1,14 @@
 
-1) Comprension de archivos de imagenes para que ocupen menos espacio con "https://tinypng.com"
+1) Comprensión de archivos de imágenes para que ocupen menos espacio con "https://tinypng.com"
 
-2) Atributos ALT en cada una de las imagenes de las distintas paginas
+2) Atributos ALTen cada una de las imágenes de las distintas páginas
 
-3) Etiqueta <meta name="description"> en cada una de las paginas indicando un breve resumen de la misma
+3) Etiqueta <meta name="description"> en cada una de las páginas indicando un breve resumen de la misma
 
-4) Etiqueta <meta name="keywords"> en cada una de las paginas con palabras claves como "IMPRESION 3D, IMPRESORA 3D, DISEÑOS 3D, ETC"
+4) Etiqueta <meta name="keywords"> en cada una de las páginas con palabras claves como "Impresión 3D, IMPRESORA 3D, DISEÑOS 3D, ETC"
 
-5) Etiqueta <title> a cada pagina para indicar el titulo de cada seccion
+5) Etiqueta <title> a cada página para indicar el titulo de cada sección
 
-6) Codigo limpio. Se respeta la jerarquia de titulos de cada pagina (h1, h2, h3, etc)
+6) Código limpio. Se respeta la jerarquía de títulos de cada página (h1, h2, h3, etc)
 
-7) Correcion de errores ortograficos y/o gramaticales
+7) Corrección de errores ortográficos y/o gramaticales
