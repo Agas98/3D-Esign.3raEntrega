@@ -144,7 +144,7 @@ body {
 footer {
   display: flex;
   justify-content: space-between;
-  background-color: #CBB6CE;
+  background-color: rgba(203, 182, 206, 0.7);
   margin-top: 10px;
 }
 
