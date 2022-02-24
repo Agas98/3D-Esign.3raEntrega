@@ -16,6 +16,7 @@ $iframe-width: 400px;
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 
 	&::selection {
 		background-color: $fondo;
@@ -60,6 +61,33 @@ body {
 
 /* FIN DECLARACION MIXINS */
 
+/* INICIO DECLARACION MAPS */
+$tamaños: (size_0: 2.2rem,
+	size_1: 1.8rem,
+	size_2: 1.5rem,
+	size_3: 1.3rem,
+	size_4: 1.2rem,
+	size_5: 1rem,
+	size_6: 0.8rem,
+	size_7: 0.7rem,
+	size_8: 0.5rem,
+	size_9: 0.4rem,
+);
+/* FIN DECLARACION MAPS */
+
+/* INICIO DECLARACION MAP-GET/KEYS */
+$font_0: map-get($tamaños, size_0);
+$font_1: map-get($tamaños, size_1);
+$font_2: map-get($tamaños, size_2);
+$font_3: map-get($tamaños, size_3);
+$font_4: map-get($tamaños, size_4);
+$font_5: map-get($tamaños, size_5);
+$font_6: map-get($tamaños, size_6);
+$font_7: map-get($tamaños, size_7);
+$font_8: map-get($tamaños, size_8);
+$font_9: map-get($tamaños, size_9);
+/* FIN DECLARACION MAP-GET/KEYS */
+
 /* INICIO GALERIA */
 .carousel-item {
 	img {
@@ -90,7 +118,7 @@ body {
 /* INICIO MEDIA QUERIES */
 @media only screen and (max-width: 768px) and (min-width: 425px) {
 	#section-index {
-		font-size: 1.2rem;
+		font-size: $font_4;
 	}
 
 	.video {
@@ -101,7 +129,7 @@ body {
 	}
 
 	#section-quienes_somos {
-		font-size: 1.2rem;
+		font-size: $font_4;
 	}
 
 	.mapa {
@@ -114,7 +142,7 @@ body {
 
 @media only screen and (max-width: 424px) {
 	#section-index {
-		font-size: 1rem;
+		font-size: $font_5;
 	}
 
 	.video {
@@ -132,7 +160,7 @@ body {
 	}
 
 	#section-contacto {
-		font-size: 1.2rem;
+		font-size: $font_4;
 	}
 
 	.icon_wpp {
@@ -145,7 +173,7 @@ body {
 	}
 
 	.producto_titulo {
-		font-size: 1.8rem;
+		font-size: $font_1;
 	}
 
 	#section-producto {
@@ -155,7 +183,7 @@ body {
 
 @media only screen and (max-width: 430px) {
 	#section-quienes_somos {
-		font-size: 1rem;
+		font-size: $font_5;
 	}
 
 	.mapa {
@@ -168,7 +196,7 @@ body {
 
 @media only screen and (max-width: 425px) {
 	#section-contacto {
-		font-size: 0.8rem;
+		font-size: $font_6;
 	}
 
 	.icon_wpp {
@@ -185,12 +213,12 @@ body {
 	}
 
 	.producto_titulo {
-		font-size: 1.3rem;
+		font-size: $font_3;
 	}
 
 	#section-producto {
 		margin-bottom: 65px;
 	}
 }
-/* FIN MEDIA QUERIES */
 
+/* FIN MEDIA QUERIES */

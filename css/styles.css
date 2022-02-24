@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 *::-moz-selection {
   background-color: #CBB6CE;
@@ -31,6 +32,10 @@ body {
 /* FIN DECLARACION DE EXTENDS */
 /* INICIO DECLARACION MIXINS */
 /* FIN DECLARACION MIXINS */
+/* INICIO DECLARACION MAPS */
+/* FIN DECLARACION MAPS */
+/* INICIO DECLARACION MAP-GET/KEYS */
+/* FIN DECLARACION MAP-GET/KEYS */
 /* INICIO GALERIA */
 .carousel-item img {
   width: 300px;
@@ -62,7 +67,7 @@ body {
 .nav-link {
   margin-left: 15px;
   color: #0078A3;
-  font-size: 1em;
+  font-size: 1.5rem;
   font-weight: 600;
   transition: all 0.8s;
 }
@@ -77,11 +82,11 @@ body {
 
 @media only screen and (max-width: 1060px) and (min-width: 768px) {
   .navbar-brand {
-    font-size: 1.9rem;
+    font-size: 1.8rem;
   }
 
   .nav-link {
-    font-size: 0.8em;
+    font-size: 1.2rem;
   }
 }
 @media only screen and (min-width: 500px) and (max-width: 767px) {
@@ -90,7 +95,7 @@ body {
   }
 
   .nav-link {
-    font-size: 0.6em;
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 499px) {
@@ -100,7 +105,7 @@ body {
   }
 
   .nav-link {
-    font-size: 0.6em;
+    font-size: 0.9rem;
   }
 
   .nav-img {
@@ -343,7 +348,7 @@ footer {
 
 .producto_titulo {
   color: #004B66;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: bold;
   text-transform: uppercase;
 }

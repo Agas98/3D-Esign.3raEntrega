@@ -9,7 +9,7 @@
 
 	span {
 		color: $texto;
-		font-size: 1.3rem;
+		font-size: $font_3;
 		font-weight: 700;
 	}
 }
@@ -17,7 +17,7 @@
 .footer__encabezado {
 	color: #000;
 	font-weight: 500;
-	font-size: 0.8rem;
+	font-size: $font_6;
 	text-align: center;
 	line-height: 50px;
 }
@@ -37,12 +37,12 @@ footer {
 @media only screen and (max-width: 850px) {
 	.footer__redes {
 		span {
-			font-size: 1rem;
+			font-size: $font_5;
 		}
 	}
 
 	.footer__encabezado {
-		font-size: 0.5rem;
+		font-size: $font_8;
 	}
 }
 
@@ -53,11 +53,11 @@ footer {
 
 	.footer__redes {
 		span {
-			font-size: 0.7rem;
+			font-size: $font_7;
 		}
 	}
 
 	.footer__encabezado {
-		font-size: 0.4rem;
+		font-size: $font_9;
 	}
 }
