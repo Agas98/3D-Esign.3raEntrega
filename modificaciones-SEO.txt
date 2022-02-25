@@ -1,5 +1,5 @@
 
-1) Comprensión de archivos de imágenes para que ocupen menos espacio con "https://tinypng.com"
+1) Comprensión de archivos de imágenes para que ocupen menos espacio con "https://tinypng.com". Conversion de imagenes a .png
 
 2) Atributos ALTen cada una de las imágenes de las distintas páginas
 
