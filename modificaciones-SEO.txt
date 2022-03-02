@@ -1,7 +1,7 @@
 
 1) Comprensión de archivos de imágenes para que ocupen menos espacio con "https://tinypng.com". Conversion de imagenes a .png
 
-2) Atributos ALTen cada una de las imágenes de las distintas páginas
+2) Atributos ALT en cada una de las imágenes de las distintas páginas
 
 3) Etiqueta <meta name="description"> en cada una de las páginas indicando un breve resumen de la misma
 
