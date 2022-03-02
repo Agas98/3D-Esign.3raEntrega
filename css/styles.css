@@ -137,8 +137,9 @@ body {
 }
 
 .footer__icon {
-  height: 50px;
+  height: 35px;
   margin-left: 40px;
+  width: 35px;
 }
 
 footer {
@@ -357,8 +358,8 @@ footer {
   font-weight: bold;
 }
 
-/* INICIO MEDIA QUERIES */
-@media only screen and (max-width: 768px) and (min-width: 425px) {
+/* IMPORT MEDIA QUERIES SCSS */
+@media only screen and (max-width: 768px) and (min-width: 431px) {
   #section-index {
     font-size: 1.2rem;
   }
@@ -376,18 +377,7 @@ footer {
     width: 400px;
     height: 350px;
   }
-}
-@media only screen and (max-width: 424px) {
-  #section-index {
-    font-size: 1rem;
-  }
 
-  .video iframe {
-    width: 250px;
-    height: 200px;
-  }
-}
-@media only screen and (max-width: 768px) {
   #section-index {
     margin-bottom: 130px;
     margin-bottom: 130px;
@@ -423,8 +413,16 @@ footer {
     width: 300px;
     height: 250px;
   }
-}
-@media only screen and (max-width: 425px) {
+
+  #section-index {
+    font-size: 1rem;
+  }
+
+  .video iframe {
+    width: 250px;
+    height: 200px;
+  }
+
   #section-contacto {
     font-size: 0.8rem;
   }
@@ -449,5 +447,4 @@ footer {
   #section-producto {
     margin-bottom: 65px;
   }
-}
-/* FIN MEDIA QUERIES *//*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */
