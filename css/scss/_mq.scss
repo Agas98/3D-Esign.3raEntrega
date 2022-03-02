@@ -1,0 +1,97 @@
+@media only screen and (max-width: 768px) and (min-width: 431px) {
+	#section-index {
+		font-size: $font_4;
+	}
+
+	.video {
+		iframe {
+			width: ($iframe-width) - 100;
+			height: ($iframe-height) - 50;
+		}
+	}
+
+	#section-quienes_somos {
+		font-size: $font_4;
+	}
+
+	.mapa {
+		iframe {
+			width: $iframe-width;
+			height: ($iframe-height) + 50;
+		}
+	}
+
+    #section-index {
+		margin-bottom: 130px;
+		margin-bottom: 130px;
+	}
+
+	#section-contacto {
+		font-size: $font_4;
+	}
+
+	.icon_wpp {
+		width: 40px;
+	}
+
+	.formulario {
+		width: 400px;
+		height: 500px;
+	}
+
+	.producto_titulo {
+		font-size: $font_1;
+	}
+
+	#section-producto {
+		margin-bottom: 60px;
+	}
+}
+
+@media only screen and (max-width: 430px) {
+	#section-quienes_somos {
+		font-size: $font_5;
+	}
+
+	.mapa {
+		iframe {
+			width: ($iframe-width) - 100;
+			height: ($iframe-height) - 50;
+		}
+	}
+
+    #section-index {
+		font-size: $font_5;
+	}
+
+	.video {
+		iframe {
+			width: ($iframe-width) - 150;
+			height: ($iframe-height) - 100;
+		}
+	}
+    #section-contacto {
+		font-size: $font_6;
+	}
+
+	.icon_wpp {
+		width: 30px;
+	}
+
+	.formulario {
+		width: 300px;
+		height: 500px;
+	}
+
+	.boton_enviar {
+		margin-top: 15px;
+	}
+
+	.producto_titulo {
+		font-size: $font_3;
+	}
+
+	#section-producto {
+		margin-bottom: 65px;
+	}
+}
