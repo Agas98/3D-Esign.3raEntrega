@@ -89,20 +89,6 @@ $font_8: map-get($tamaños, size_8);
 $font_9: map-get($tamaños, size_9);
 /* FIN DECLARACION MAP-GET/KEYS */
 
-/* INICIO GALERIA */
-.carousel-item {
-	img {
-		width: 300px;
-		height: 550px;
-	}
-}
-
-#section-galeria {
-	height: 675px;
-}
-
-/* FIN GALERIA */
-
 /* IMPORT NAVBAR/HEADER SCSS*/
 @import "scss/header";
 /* IMPORT FOOTER SCSS*/
@@ -111,6 +97,8 @@ $font_9: map-get($tamaños, size_9);
 @import "scss/index";
 /* IMPORT QUIENES SOMOS SCSS */
 @import "scss/quienes-somos";
+/* IMPORT GALERIA.SCSS */
+@import "scss/galeria";
 /* IMPORT CONTACTO SCSS */
 @import "scss/contacto";
 /* IMPORT PRODUCTOS SCSS */

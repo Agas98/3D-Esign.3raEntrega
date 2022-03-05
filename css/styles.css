@@ -36,17 +36,6 @@ body {
 /* FIN DECLARACION MAPS */
 /* INICIO DECLARACION MAP-GET/KEYS */
 /* FIN DECLARACION MAP-GET/KEYS */
-/* INICIO GALERIA */
-.carousel-item img {
-  width: 300px;
-  height: 550px;
-}
-
-#section-galeria {
-  height: 675px;
-}
-
-/* FIN GALERIA */
 /* IMPORT NAVBAR/HEADER SCSS*/
 .bg-dark {
   border: 3px solid #907A89;
@@ -223,7 +212,8 @@ footer {
 
 .texto {
   background-color: #907A89;
-  margin-top: 20px;
+  margin: 25px;
+  width: auto;
   border-radius: 35px 5px;
   border: 2px solid #333;
   padding: 10px;
@@ -278,6 +268,20 @@ footer {
   color: #47CEFF;
 }
 
+/* IMPORT GALERIA.SCSS */
+/* INICIO GALERIA */
+.carousel-item img {
+  width: 650px !important;
+  height: 650px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#section-galeria {
+  height: 760px;
+}
+
+/* FIN GALERIA */
 /* IMPORT CONTACTO SCSS */
 #section-contacto {
   flex-wrap: wrap;

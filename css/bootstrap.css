@@ -5844,6 +5844,8 @@ textarea.form-control-lg {
   display: inline-block;
   width: 2rem;
   height: 2rem;
+  background-color: black;
+  border-radius: 10px;
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: 100% 100%;
@@ -5883,13 +5885,13 @@ textarea.form-control-lg {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 10px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
   text-indent: -999px;
   cursor: pointer;
-  background-color: #fff;
+  background-color: #000;
   background-clip: padding-box;
   border: 0;
   border-top: 10px solid transparent;
