@@ -269,7 +269,6 @@ footer {
 }
 
 /* IMPORT GALERIA.SCSS */
-/* INICIO GALERIA */
 .carousel-item img {
   width: 650px !important;
   height: 650px;
@@ -281,7 +280,6 @@ footer {
   height: 760px;
 }
 
-/* FIN GALERIA */
 /* IMPORT CONTACTO SCSS */
 #section-contacto {
   flex-wrap: wrap;
