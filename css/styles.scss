@@ -1,24 +1,27 @@
 /* Fuente Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=PT+Serif&family=Ubuntu:wght@300;400&display=swap');
 
 /* DECLARACION DE VARIABLES */
-$principal: #0078A3;
-$principal-hover: #47CEFF;
-$secundario: #00698f;
-$titulo: #004B66;
-$texto: #333;
-$fondo: #CBB6CE;
-$fondo-opacity: rgba(203, 182, 206, 0.7);
-$borde: #907A89;
+$principal: #FF990A;
+$principal-hover: #F7F06D;
+$secundario: #EDBF85;
+$titulo: #171612;
+$texto: #531;
+$fondo: #5C5847;
+$fondo2: #464335;
+$fondo-opacity: rgba(92, 88, 71, 0.5);
+$borde: #2E2C23;
 $iframe-height: 300px;
 $iframe-width: 400px;
+$fuente1: 'Fredoka', sans-serif;
+$fuente2: 'PT Serif', serif;
+$fuente3: 'Ubuntu', sans-serif;
 
 /* RESET CSS Y SELECCION */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
 	&::selection {
 		background-color: $fondo;
 		color: $principal;
@@ -26,10 +29,12 @@ $iframe-width: 400px;
 }
 
 body {
-	background: linear-gradient(60deg, rgba(255, 212, 194, 1) 0%, rgba(245, 169, 137, 1) 28%, rgba(71, 206, 255, 1) 66%, rgba(0, 105, 143, 0.9640231092436975) 100%);
-	background-repeat: no-repeat;
+	background: rgb(255,153,10);
+	background: radial-gradient(circle, rgba(255,153,10,1) 0%, rgba(237,191,133,1) 50%, rgba(92,88,71,1) 100%);
 	background-size: cover;
 	font-size: 24px;
+	font-family: $fuente3;
+	font-weight: 500;
 }
 
 /* INICIO DECLARACION DE EXTENDS */

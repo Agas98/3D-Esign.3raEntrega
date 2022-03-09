@@ -4213,10 +4213,11 @@ textarea.form-control-lg {
 }
 
 .navbar-dark .navbar-brand {
-  color: #004B66;
+  color: #171612;
+  transition: all 1.3s ease;
 }
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #004B66;
+  color: #F7F06D;
 }
 .navbar-dark .navbar-nav .nav-link.disabled {
   color: rgba(255, 255, 255, 0.25);
@@ -7414,7 +7415,7 @@ textarea.form-control-lg {
 }
 
 .bg-dark {
-  background-color: #CBB6CE !important;
+  background-color: #CBB6CE;
 }
 
 .bg-body {

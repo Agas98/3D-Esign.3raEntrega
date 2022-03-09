@@ -34,7 +34,8 @@
 	text-transform: uppercase;
 	color: $titulo;
 	font-size: 30px;
-	font-weight: 800;
+	font-family: $fuente1;
+	font-weight: bold;
 }
 
 .texto {
@@ -43,13 +44,13 @@
 		font-weight: 700;
 	}
 
-	background-color: $borde;
+	background-color: $fondo2;
 	margin: 25px;
 	width: auto;
 	border-radius: 35px 5px;
-	border: 2px solid $texto;
+	border: 2px solid $borde;
 	padding: 10px;
-	font-family: "Noto Serif Display",
+	font-family: $fuente1,
 	serif;
 	font-weight: 700;
 }

@@ -1,11 +1,17 @@
 .bg-dark {
 	border: 3px solid $borde;
 	border-radius: 80px;
+	background-color: $fondo;
 }
 
 .nav-img {
 	height: 100px;
 	width: 200px;
+	transition: all 0.8s ease;
+}
+
+.nav-img:hover{
+	transform: scale(1.15);
 }
 
 .navbar-centrado {
