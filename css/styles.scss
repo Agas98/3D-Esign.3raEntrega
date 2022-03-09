@@ -13,24 +13,40 @@ $fondo-opacity: rgba(92, 88, 71, 0.5);
 $borde: #2E2C23;
 $iframe-height: 300px;
 $iframe-width: 400px;
-$fuente1: 'Fredoka', sans-serif;
-$fuente2: 'PT Serif', serif;
-$fuente3: 'Ubuntu', sans-serif;
+$fuente1: 'Fredoka',
+sans-serif;
+$fuente2: 'PT Serif',
+serif;
+$fuente3: 'Ubuntu',
+sans-serif;
 
 /* RESET CSS Y SELECCION */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+
 	&::selection {
 		background-color: $fondo;
 		color: $principal;
 	}
 }
 
+html::-webkit-scrollbar {
+	width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: $borde;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: $principal;
+}
+
 body {
-	background: rgb(255,153,10);
-	background: radial-gradient(circle, rgba(255,153,10,1) 0%, rgba(237,191,133,1) 50%, rgba(92,88,71,1) 100%);
+	background: rgb(255, 153, 10);
+	background: radial-gradient(circle, rgba(255, 153, 10, 1) 0%, rgba(237, 191, 133, 1) 50%, rgba(92, 88, 71, 1) 100%);
 	background-size: cover;
 	font-size: 24px;
 	font-family: $fuente3;

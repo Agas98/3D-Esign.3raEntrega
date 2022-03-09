@@ -16,6 +16,18 @@
   color: #FF990A;
 }
 
+html::-webkit-scrollbar {
+  width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #2E2C23;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: #FF990A;
+}
+
 body {
   background: #ff990a;
   background: radial-gradient(circle, #ff990a 0%, #edbf85 50%, #5c5847 100%);
