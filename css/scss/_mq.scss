@@ -59,6 +59,9 @@
 		height: 500px;
 	}
 	
+	.titulo{
+		font-size: $font_1;
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -75,6 +78,8 @@
 
     #section-index {
 		font-size: $font_5;
+		height: auto;
+		margin-bottom: 125px;
 	}
 
 	.video {
@@ -115,5 +120,9 @@
 			margin: auto;
 			margin-top: 50px;
 		}
+	}
+
+	.titulo{
+		font-size: $font_2;
 	}
 }

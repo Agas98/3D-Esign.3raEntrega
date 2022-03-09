@@ -214,7 +214,8 @@ footer {
   text-align: center;
   text-transform: uppercase;
   color: #171612;
-  font-size: 30px;
+  font-size: 2.2rem;
+  margin-top: 15px;
   font-family: "Fredoka", sans-serif;
   font-weight: bold;
 }
@@ -425,6 +426,10 @@ footer {
   #section-galeria {
     height: 500px;
   }
+
+  .titulo {
+    font-size: 1.8rem;
+  }
 }
 @media only screen and (max-width: 430px) {
   #section-quienes_somos {
@@ -438,6 +443,8 @@ footer {
 
   #section-index {
     font-size: 1rem;
+    height: auto;
+    margin-bottom: 125px;
   }
 
   .video iframe {
@@ -475,5 +482,9 @@ footer {
     height: 320px;
     margin: auto;
     margin-top: 50px;
+  }
+
+  .titulo {
+    font-size: 1.5rem;
   }
 }/*# sourceMappingURL=styles.css.map */
