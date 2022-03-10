@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- INICIO SEO -->
     <meta name="description"
         content="Como funciona una impresora 3D? Donde nace la historia de la impresion 3D? Solicita tu presupuesto online💻">
@@ -99,16 +99,20 @@
         <div class="col-lg-6 col-md-6 footer__redes">
             <span>Seguinos en nuestras redes!</span>
             <div class="row">
-                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://twitter.com" target="_blank"><img
-                            class="img-rounded" src="img/twitter.png" alt="Twitter-Icon" class="footer_icon"></a></div>
-                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://facebook.com" target="_blank"><img
-                            class="img-rounded" src="img/facebook.png" alt="Facebook-Icon" class="footer_icon"></a>
+                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://twitter.com"
+                        target="_blank"><img class="img-rounded" src="img/twitter.png" alt="Twitter-Icon"
+                            class="footer_icon"></a></div>
+                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://facebook.com"
+                        target="_blank"><img class="img-rounded" src="img/facebook.png" alt="Facebook-Icon"
+                            class="footer_icon"></a>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https:/instagram.com" target="_blank"><img
-                            class="img-rounded" src="img/instagram.png" alt="Instagram-Icon" class="footer_icon"></a>
+                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https:/instagram.com"
+                        target="_blank"><img class="img-rounded" src="img/instagram.png" alt="Instagram-Icon"
+                            class="footer_icon"></a>
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://github.com/Agas98" target="_blank"><img
-                            class="img-rounded" src="img/GitHub.png" alt="Github-Icon" class="footer_icon"></a></div>
+                <div class="col-lg-2 col-md-2 col-sm-2 contenedor__icon"><a href="https://github.com/Agas98"
+                        target="_blank"><img class="img-rounded" src="img/GitHub.png" alt="Github-Icon"
+                            class="footer_icon"></a></div>
             </div>
         </div>
     </footer>
@@ -128,6 +132,16 @@
         new WOW().init();
     </script>
     <!-- FIN SCRIPTS WOW -->
+    <!-- INICIO SCRIPTS ELIMINAR MARCA AGUA FOOTER -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("a[title|='Hosted on free web hosting 000webhost.com. Host your own website for       FREE.']")
+                .css("display", "none");
+            $("img[alt|='www.000webhost.com']").css("display", "none");
+        });
+    </script>
+    <!-- FIN SCRIPTS ELIMINAR MARCA AGUA FOOTER -->
 </body>
 
 </html>
