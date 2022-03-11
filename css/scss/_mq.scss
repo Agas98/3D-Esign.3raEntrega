@@ -62,6 +62,10 @@
 	.titulo{
 		font-size: $font_1;
 	}
+
+	.navbar-centrado{
+		margin-left: 85px;
+	}
 }
 
 @media only screen and (max-width: 430px) {
@@ -124,5 +128,9 @@
 
 	.titulo{
 		font-size: $font_2;
+	}
+
+	.navbar-centrado{
+		margin-left: 65px;
 	}
 }

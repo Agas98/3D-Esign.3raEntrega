@@ -71,6 +71,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: 130px;
 }
 
 .nav-link {
@@ -233,6 +234,7 @@ footer {
 }
 
 .texto {
+  text-align: justify;
   background-color: #464335;
   margin: 25px;
   width: auto;
@@ -442,6 +444,10 @@ footer {
   .titulo {
     font-size: 1.8rem;
   }
+
+  .navbar-centrado {
+    margin-left: 85px;
+  }
 }
 @media only screen and (max-width: 430px) {
   #section-quienes_somos {
@@ -498,5 +504,9 @@ footer {
 
   .titulo {
     font-size: 1.5rem;
+  }
+
+  .navbar-centrado {
+    margin-left: 65px;
   }
 }/*# sourceMappingURL=styles.css.map */
